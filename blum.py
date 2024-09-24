@@ -277,7 +277,7 @@ def get_user_info(token):
         'origin': 'https://telegram.blum.codes',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0'
     }
-    response = requests.get('https://gateway.blum.codes/v1/user/me', headers=headers)
+    response = requests.get('https://user-domain.blum.codes/v1/user/me', headers=headers)
     if response.status_code == 200:
         return response.json()
     else:
