@@ -1,6 +1,6 @@
-argparse
+colorama
 random
 requests
 time
 datetime
-colorama
+
